@@ -9,7 +9,7 @@ A clean, minimal LaTeX resume template for tech/cybersecurity roles. Single-page
 | File | Description |
 |---|---|
 | `template.tex` | Main resume source — edit this |
-| `2_30_6.pdf` | Compiled PDF preview |
+| `(2_30_6.pdf)[https://github.com/mrxehmad/resume-template/blob/main/2_30_6.pdf]` | Compiled PDF preview |
 | `README.md` | This file |
 
 ---
