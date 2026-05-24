@@ -30,9 +30,10 @@ A clean, minimal LaTeX resume template for tech/cybersecurity roles. Single-page
    ```
    Output: `template.pdf`
 
----
 
-
+>[!NOTE]
+>**Online:** Upload `template.tex` to [Overleaf](https://www.overleaf.com)
+>and compile there, no local install needed.
 
 
 ---
@@ -60,14 +61,6 @@ Each section follows the same pattern — easy to add, remove, or reorder:
 \vspace{5pt}
 % your content here
 ```
-
-
-
-
-
-**Via browser** (if using an HTML version): `Ctrl+P` → Save as PDF, set margins to None.
-
-**Online:** Upload `template.tex` to [Overleaf](https://www.overleaf.com) and compile there — no local install needed.
 
 ---
 
