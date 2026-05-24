@@ -1,0 +1,143 @@
+%----------------------------------------------------------------------------------------
+% RESUME TEMPLATE — Generic / Open Source
+% Replace placeholder details with your own information
+%----------------------------------------------------------------------------------------
+
+\documentclass[10.5pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=0.35in, bottom=0.25in, left=0.55in, right=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+\usepackage{scrextend}
+\changefontsizes{11pt}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Tighter bullet lists
+\setlist[itemize]{
+  leftmargin=1.5em,
+  itemsep=0pt,
+  topsep=0pt,
+  parsep=0pt,
+  label=\textbullet
+}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%--- HEADER ---
+  {\fontsize{26pt}{30pt}\selectfont\textbf{Alex Jordan}} \\[5pt]
+  {\large\textbf{CYBERSECURITY ANALYST}} \\[5pt]
+  {\small
+    San Francisco, CA, USA \textbar{}
+    \href{mailto:alex@example.com}{alex@example.com} \textbar{}
+    \href{https://alexjordan.dev}{alexjordan.dev} \textbar{}
+    +1 (555) 012-3456 \textbar{}
+    \href{https://linkedin.com/in/alexjordan}{linkedin.com/in/alexjordan}
+  }
+
+\vspace{0pt}
+\noindent\rule{\textwidth}{1.5pt}
+\vspace{0pt}
+
+%--- SUMMARY ---
+\noindent\textbf{\large SUMMARY}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{2pt}
+{\small Cybersecurity Analyst and Network Security Engineer specializing in Zero Trust architecture, DNS security, and production infrastructure hardening. Operate a 24/7 self-hosted environment running Docker services, a multi-layer DNS chain, mDNS, and dual node secure-access tunnels. Experienced in firmware security research, CI/CD automation, and open-source contribution. Combines deep infrastructure hands-on experience with AI-assisted development workflows.}
+
+\vspace{10pt}
+
+%--- PROFESSIONAL EXPERIENCE ---
+\noindent\textbf{\large PROFESSIONAL EXPERIENCE}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{5pt}
+\noindent\textbf{Self-Hosted Infrastructure Administrator} \hfill {\small May 2023 -- Present}
+
+\begin{itemize}\small
+  \item Deployed and operate a 24/7 production server (Debian, FreeBSD) hosting Docker services including Pi-hole, Traefik, Vaultwarden, Emby, and qBittorrent inside a management subnet with 99.9\% uptime
+  \item Engineered multi-layer DNS security chain with Pi-hole and AdGuard Home on OpenWrt router as secondary resolver
+  \item Implemented dual secure-access: Cloudflare Tunnel (multi-node backup) for full remote access to internal services behind CGNat
+  \item Configured OpenWrt router with VLAN-segmented bridges, custom routing rules, and firewall policies for maximum security and reliability
+  \item Automated encrypted cloud backups with rclone
+  \item Integrated ESP8266 IoT sensor with InfluxDB and Grafana Cloud for real-time monitoring
+\end{itemize}
+
+\vspace{10pt}
+
+%--- PROJECTS ---
+\noindent\textbf{\large PROJECTS}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{5pt}
+\noindent\textbf{Unified Web Platform} \textbar{} \textit{\small Next.js, React, TypeScript, GitHub Actions} \hfill {\small Aug 2025 -- Present}
+\begin{itemize}\small
+  \item Built automated CI/CD pipeline merging 3 codebases via Git submodules, cutting deployment time (30 min → 5 min) with zero-downtime rollouts and automated rollback
+  \item Automated SSL certificate provisioning for internal services and distribution to nodes with backup provider
+\end{itemize}
+
+\vspace{2pt}
+\noindent\textbf{Consumer Router Firmware Analysis Report} \textbar{} \textit{\small Reverse Engineering, Network Security} \hfill {\small Nov 2025}
+\begin{itemize}\small
+  \item Extracted and analyzed filesystem of proprietary router OS
+  \item Identified active MAC address telemetry to a vendor cloud endpoint
+  \item Discovered router admin credential exposure; documented a telnet activation vector via unauthenticated CGI endpoint
+\end{itemize}
+
+\vspace{2pt}
+\noindent\textbf{DNS Adlist Repository} \textbar{} \textit{\small DNS Security, Threat Intelligence, Community} \hfill {\small Jan 2023 -- Present}
+\begin{itemize}\small
+  \item Maintain DNS blocklist ecosystem serving hundreds of users with platform-specific lists updated on a weekly basis
+\end{itemize}
+
+\vspace{10pt}
+
+%--- SKILLS ---
+\noindent\textbf{\large SKILLS}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{5pt}
+{\small
+\textbf{Network \& Security:} Zero Trust Architecture, Network Segmentation, DNS Security, Firewall Configuration, OpenWrt, Cisco, MikroTik, Penetration Testing, Vulnerability Assessment, Access Control \\[2pt]
+\textbf{Infrastructure \& Cloud:} Docker, Linux, Proxies, Apache, Cloudflare, Site-to-Site VPNs, AWS, Azure \\[2pt]
+\textbf{DevOps \& Automation:} CI/CD, Bash Scripting, Ansible, rclone, Git, Infrastructure as Code \\[2pt]
+\textbf{Monitoring \& Tools:} Grafana Cloud, InfluxDB, SQLite Logging, IoT Integration \\[2pt]
+\textbf{Programming:} YAML, Python, TypeScript, JavaScript, Bash, PHP, C, React, Next.js, REST APIs
+}
+
+\vspace{10pt}
+
+%--- EDUCATION ---
+\noindent\textbf{\large EDUCATION}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{5pt}
+\noindent\textbf{BS Cybersecurity — State University, Anytown, USA (3.68/4.00)} \hfill {\small Sep 2023 -- Present}
+\begin{itemize}\small
+  \item Relevant coursework: Network Security, System Administration, Cloud Infrastructure, Digital Forensics, Cryptography, Ethical Hacking, Software Development
+\end{itemize}
+
+\vspace{10pt}
+
+%--- CERTIFICATIONS ---
+\noindent\textbf{\large CERTIFICATIONS}\\[-6pt]
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{5pt}
+\begin{itemize}\small
+  \item \textbf{Certified in Cybersecurity (CC)} — ISC\textsuperscript{2}
+  \item \textbf{Google Cybersecurity Professional} — Google
+  \item \textbf{CCNA} (In Training) — Cisco
+  \item \textbf{Introduction to Cybersecurity} — Cisco
+\end{itemize}
+
+\end{document}
