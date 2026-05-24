@@ -18,7 +18,7 @@ A clean, minimal LaTeX resume template for tech/cybersecurity roles. Single-page
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/resume_template.git
+   git clone https://github.com/mrxehmad/resume-template.git
    cd resume_template
    ```
 
@@ -63,7 +63,6 @@ Each section follows the same pattern — easy to add, remove, or reorder:
 
 
 
-```
 
 
 **Via browser** (if using an HTML version): `Ctrl+P` → Save as PDF, set margins to None.
